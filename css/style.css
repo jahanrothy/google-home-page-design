@@ -1,0 +1,162 @@
+    @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    #head {
+        float: right;
+        text-decoration: none;
+        padding: 20px 15px;
+        justify-content: space-between;
+    }
+    
+    #div1 {
+        text-decoration: none;
+        margin-right: 17px;
+        font-size: 15px;
+        color: rgb(93, 93, 95);
+    }
+    
+    #div1:hover {
+        text-decoration: underline;
+    }
+    
+    #div2 {
+        text-decoration: none;
+        margin-right: 17px;
+        font-size: 15px;
+        color: rgb(93, 93, 95);
+    }
+    
+    #div2:hover {
+        text-decoration: underline;
+        bottom: -3px;
+    }
+    
+    #img {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        margin-right: 20px;
+        border: 1px solid transparent rgb(165, 159, 159);
+        transition: 1s ease;
+        cursor: pointer;
+    }
+    
+    #img:hover {
+        box-shadow: 2px solid rgba(0, 0, 0, 0.3);
+    }
+    
+    #logo {
+        width: 22px;
+        height: 22px;
+        margin-right: 20px;
+        margin-top: 3px;
+    }
+    
+    #google-img {
+        width: 400px;
+        height: 130px;
+        margin-left: 500px;
+        margin-top: 150px;
+    }
+    /* #search {
+        width: 700px;
+        height: 50px;
+        justify-content: center;
+        display: flex;
+        color: black;
+    }
+    
+
+    
+    .fas {
+        margin-right: 50px;
+    } */
+    
+    #search-btn {
+        width: 30px;
+        height: 30px;
+        margin-top: 7px;
+    }
+    
+    #microphone {
+        width: 16px;
+        height: 24px;
+        margin-top: 8px;
+        margin-right: 4px;
+    }
+    
+    .search {
+        width: 650px;
+        height: 45px;
+        border: 1px solid rgb(165, 159, 159);
+        justify-content: center;
+        display: flex;
+        margin-left: 380px;
+        margin-top: 8px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+    }
+    
+    #search1 {
+        width: 530px;
+        height: 30px;
+        border: none;
+        margin: 5px 5px;
+        outline: none;
+    }
+    
+    .button {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        margin: 20px;
+    }
+    
+    .btn1 {
+        margin: 5px 10px;
+        border-radius: 5px;
+        padding: 7px 7px;
+        border: none;
+        border: 1px solid transparent;
+    }
+    
+    .btn1:hover {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    
+    .btn2 {
+        margin: 5px 10px;
+        border-radius: 5px;
+        border: none;
+        padding: 7px 7px;
+        border: 1px solid transparent;
+    }
+    
+    .btn2:hover {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    
+    .footer {
+        display: flex;
+        text-decoration: none;
+        justify-content: space-between;
+        position: relative;
+        align-items: center;
+        background-color: rgb(246, 248, 250);
+        width: 100%;
+        height: 40px;
+        margin-top: 160px;
+    }
+    
+    .footer li {
+        position: relative;
+        display: inline-block;
+        padding: 5px 9px;
+        align-items: center;
+        margin-top: 17px;
+        color: rgb(129, 129, 128);
+    }
